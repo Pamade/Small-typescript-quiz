@@ -1,0 +1,63 @@
+*{
+    font-family: Arial;
+    margin: 0;
+}
+
+.App{
+    background-color: rgb(41, 40, 40);
+    color: white;
+    height: 100vh;
+}
+
+header{
+    padding: 1% 10%;
+    background-color: rgb(4, 75, 99);
+}
+
+main{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+h2{
+    margin: 2% 0;
+}
+
+.questions-w{
+    background-color: rgba(88, 83, 83, 0.884);
+    padding: 1rem 0;
+}
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 0 auto;
+    padding: 0.5rem 0;
+}
+
+.answers{
+    margin: 0.5rem 0;
+    text-align: center;
+    padding: 10px 20px;
+    &--block{
+        pointer-events: none;
+    }
+}
+.answers p{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 1rem;
+    cursor: pointer;
+    &:hover{
+        background-color: purple;
+    }
+}
+
+.p-color{
+    background-color: red;
+}
+.active{
+    background-color: rgb(9, 160, 9);
+}
